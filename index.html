@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultoria de Carreira | Estratégia e Recolocação</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              sand: {
+                50: '#f9f9f7',
+                100: '#f0f0eb',
+                200: '#e2e2da',
+                300: '#cfcfc2',
+                400: '#b8b8a3',
+                500: '#a3a388', // Olive-ish undertone
+                900: '#3e3e36',
+              },
+              olive: {
+                50: '#f6f8f1',
+                100: '#ecf1e1',
+                200: '#d7e1c1',
+                300: '#bccda0',
+                400: '#a3b77f',
+                500: '#869d5f',
+                600: '#687d46',
+                700: '#53633a',
+                800: '#445131',
+                900: '#39432b',
+              },
+              linkedin: {
+                50: '#f0f7fb',
+                100: '#e0eff7',
+                200: '#b8dbeec',
+                300: '#7ebce1',
+                400: '#3e96cf',
+                500: '#1677b5', // Main LinkedIn Blue-ish
+                600: '#0c5e96',
+                700: '#094b7a',
+                800: '#0a3f65',
+                900: '#0d3553',
+              },
+              graphite: {
+                800: '#2d2d2d',
+                900: '#1a1a1a',
+              }
+            },
+            fontFamily: {
+              sans: ['"DM Sans"', 'sans-serif'],
+              serif: ['"Playfair Display"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-sand-50 text-graphite-800">
+    <div id="root"></div>
+  </body>
+</html>
