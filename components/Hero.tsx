@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
           {/* Text Content */}
           <div className="lg:col-span-7 mb-12 lg:mb-0">
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-linkedin-50 border border-linkedin-200 text-linkedin-800 text-xs font-semibold tracking-wide uppercase mb-6">
-              Consultoria Executiva & Strategic Placement
+              Consultoria Executiva e Personalizada
             </div>
             <h1 className="font-serif text-4xl lg:text-6xl font-bold text-graphite-900 leading-tight mb-6">
               Sua carreira merece <br />
